@@ -1,0 +1,533 @@
+how to puch existing project to github:
+how to puch existing project to github:
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ cd c:
+
+VERSION IT@DESKTOP-19E754H MINGW64 /c
+$ pwd
+/c
+
+VERSION IT@DESKTOP-19E754H MINGW64 /c
+$ ls
+'$Recycle.Bin'/            'Program Files (x86)'/         bootmgr
+ BOOTNXT                    ProgramData/                  hiberfil.sys
+'Documents and Settings'@   Recovery/                     pagefile.sys
+ Intel/                    'System Volume Information'/   swapfile.sys
+ PerfLogs/                  Users/
+'Program Files'/            Windows/
+
+VERSION IT@DESKTOP-19E754H MINGW64 /c
+$ cd Users/
+
+VERSION IT@DESKTOP-19E754H MINGW64 /c/Users
+$ ls
+'All Users'@   Default/  'Default User'@   Public/  'VERSION IT'/   desktop.ini
+
+VERSION IT@DESKTOP-19E754H MINGW64 /c/Users
+$ cd VERSION\ IT/
+
+VERSION IT@DESKTOP-19E754H MINGW64 ~
+$ pwd
+/c/Users/VERSION IT
+
+VERSION IT@DESKTOP-19E754H MINGW64 ~
+$ cd e:
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ pwd
+/e
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ mkdir localrepository
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ touch file1
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ touch file2 file3 file4
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ vi file1
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ cat file1
+this is new file akhilesh
+
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ cd localrepository/
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository
+$ touch file1 file2 file3 file4
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository
+$ vi file1
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository
+$ cat file1
+this is first file
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository
+$ git init -b main
+Initialized empty Git repository in E:/localrepository/.git/
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git add .
+warning: LF will be replaced by CRLF in file1.
+The file will have its original line endings in your working directory
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git commit -m "initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'VERSION IT@DESKTOP-19E754H.(none)')
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git config --global user.name "akhilesh"
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git commit -m "initial commit on local"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'VERSION IT@DESKTOP-19E754H.(none)')
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git config --global user.name akhilesh
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git commit -m "initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'VERSION IT@DESKTOP-19E754H.(none)')
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git config --global user.name "akhilesh"
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git commit -m "initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'VERSION IT@DESKTOP-19E754H.(none)')
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git config --global user.email "akhileshsaini551@gmail.com"
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git commit -m "initial commit"
+[main (root-commit) 6d62264] initial commit
+ 4 files changed, 2 insertions(+)
+ create mode 100644 file1
+ create mode 100644 file2
+ create mode 100644 file3
+ create mode 100644 file4
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ gh repo creat
+bash: gh: command not found
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ gh repo create
+bash: gh: command not found
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ gh repo create my-project --public --clone
+bash: gh: command not found
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ g
+Display all 90 possibilities? (y or n)
+GamePanel.exe                       git-credential-manager-core.exe
+GamePanelExternalHook.dll           git-flow
+GameUXLegacyGDFs.dll                git-gui.exe
+GdiPlus.dll                         git-lfs.exe
+GenValObj.exe                       git-receive-pack.exe
+GeoLocatorHelper.dll                git-update-git-for-windows
+Geocommon.dll                       git-upload-archive.exe
+Geolocation.dll                     git-upload-pack.exe
+GfxUI.exe                           git.exe
+GitHub.UI.Shared.dll                gitk
+GitHub.UI.exe                       gitk.exe
+GitHub.dll                          gkill.exe
+GitLab.UI.Shared.dll                glmf32.dll
+GitLab.UI.exe                       globinputhost.dll
+GitLab.dll                          glu32.dll
+GlobCollationHost.dll               gmondump.exe
+GnssAdapter.dll                     gpapi.dll
+Groupinghc.dll                      gpedit.dll
+g711codc.ax                         gpg-agent.exe
+gacinstall.dll                      gpg-connect-agent.exe
+gameux.dll                          gpg-error.exe
+gamingtcui.dll                      gpg-wks-server.exe
+gawk-5.0.0.exe                      gpg.exe
+gawk.exe                            gpgconf.exe
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ ggh
+bash: ggh: command not found
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ gh
+bash: gh: command not found
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ gh
+bash: gh: command not found
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git repo create
+git: 'repo' is not a git command. See 'git --help'.
+
+The most similar commands are
+        grep
+        reflog
+        remote
+        repack
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git remote origin https://github.com/
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git remote origin set-url --add newrepository https://github.com/
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git remote origin -v set-url --add newrepository https://github.com/
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git remote origin -v set-url https://github.com/
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git remote add origin upscenglish007@gmail.com:upscenglish007/mynewproject.git
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -U -f origin master
+error: unknown switch `U'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --force-if-includes   require remote updates to be integrated locally
+    --recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -u -f origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'gmail.com:upscenglish007/mynewproject.git'
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -u -f origin main
+
+
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -u -f
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f -u
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'gmail.com:upscenglish007/mynewproject.git'
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git remote add origin upscenglish007@gmail.com:upscenglish007/https://github.com/upscenglish007/mynewproject.git
+error: remote origin already exists.
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git commit -m "adb"
+On branch main
+nothing to commit, working tree clean
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'gmail.com:upscenglish007/mynewproject.git'
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'gmail.com:upscenglish007/mynewproject.git'
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git remote add myproject https://github.com/upscenglish007/mynewproject.git
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f -u
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f --set-upstream ok
+fatal: 'ok' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f --set-upstream localrepository
+fatal: 'localrepository' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f --set-upstream mynewproject
+fatal: 'mynewproject' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git config --global user.name "upscenglish007"
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git config --global user.email "upscenglish007@gmail.com"
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f --set-upstream mynewproject
+fatal: 'mynewproject' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ cd ..
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ git push -f --set-upstream mynewproject
+fatal: not a git repository (or any of the parent directories): .git
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e
+$ cd localrepository/
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f --set-upstream mynewproject
+fatal: 'mynewproject' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ ^C
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f --set-upstream git@github.com:upscenglish007/mynewproject.git
+The authenticity of host 'github.com (13.234.210.38)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? Y
+Please type 'yes', 'no' or the fingerprint: Y
+Please type 'yes', 'no' or the fingerprint: Y
+Please type 'yes', 'no' or the fingerprint: T
+Please type 'yes', 'no' or the fingerprint: N
+Please type 'yes', 'no' or the fingerprint: N
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: n
+Please type 'yes', 'no' or the fingerprint:
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ n
+bash: n: command not found
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f --set-upstream https://github.com/upscenglish007/mynewproject.git
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/upscenglish007/mynewproject.git/'
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$ git push -f --set-upstream https://github.com/upscenglish007/mynewproject.git
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 270 bytes | 270.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/upscenglish007/mynewproject.git
+ + d4a9913...6d62264 main -> main (forced update)
+branch 'main' set up to track 'https://github.com/upscenglish007/mynewproject.git/main'.
+
+VERSION IT@DESKTOP-19E754H MINGW64 /e/localrepository (main)
+$
